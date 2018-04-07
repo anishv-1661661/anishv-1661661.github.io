@@ -1,0 +1,31 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#main_header {
+    border-style: ridge;
+}
+
+.header {
+    text-align: center;
+    border: dotted black 2px;
+    border-radius: 5px;
+}
+
+#pics {
+    display: flex;
+    flex-direction: row;
+}
+
+#img_container {
+    position: relative;
+    text-align: center;
+}
+
+.img_container_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
